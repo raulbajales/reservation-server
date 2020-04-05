@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2cdede10-e912-4e2b-a3b9-da7204d7113d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="BSP">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="reservation--server" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="reservation--server" type="f1a62948:ProjectNode" />
+                <item name="reservation--server" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="reservation--server" type="f1a62948:ProjectNode" />
+                <item name="reservation--server" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="reservation--server" type="f1a62948:ProjectNode" />
+                <item name="reservation--server-build" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="reservation--server" type="f1a62948:ProjectNode" />
+                <item name="reservation--server-build" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="users-server-server" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+        <option value="FxmlFile" />
+        <option value="Scala Class" />
+        <option value="Scala Trait" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1ZXgmcwNkZIBkYaHtFQs7uHYRrM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.reservation" />
+      <recent name="com.usermanager.controller" />
+      <recent name="com.users.server" />
+      <recent name="com.users.server.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.usermanager.service" />
+    </key>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="reservation-server" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="root [file:/Users/raulbajales/development/sample-scala-rest-server/reservation-server/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="reservation-server-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/build.sbt" value="3075058465" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
+        <entry key="$PROJECT_DIR$/project/plugins.sbt" value="86493699" />
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../discover-me/quiz-api-server" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../discoverme/QuizServer" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2cdede10-e912-4e2b-a3b9-da7204d7113d" name="Default Changelist" comment="" />
+      <created>1584991012761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584991012761</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586048876603">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="55" y="-846" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-512.-1080.1920.1080/0.0.1440.900@-512.-1080.1920.1080" timestamp="1585841740400" />
+    <state x="378" y="173" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.800@0.0.1280.800" timestamp="1586048876603" />
+    <state x="453" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1586023079673">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="168" y="-938" key="#com.intellij.ide.util.MemberChooser/-512.-1080.1920.1080/0.0.1440.900@-512.-1080.1920.1080" timestamp="1585595925482" />
+    <state x="453" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1586023079673" />
+    <state x="378" y="183" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1586025148266">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="183" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1586025148266" />
+    <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585620302413">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="328" y="135" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.800@0.0.1280.800" timestamp="1585620302413" />
+    <state x="406" y="278" width="480" height="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1586025158583">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="406" y="278" width="480" height="243" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.800@0.0.1280.800" timestamp="1586025158583" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586025265177">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1586025265177" />
+    <state x="228" y="150" key="IDE.errors.dialog" timestamp="1586037100722">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="228" y="150" key="IDE.errors.dialog/0.0.1280.800@0.0.1280.800" timestamp="1586037100722" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1585419798527">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/-512.-1057.1920.1057/0.23.1440.877@0.23.1440.877" timestamp="1585419798527" />
+    <state x="100" y="100" width="1080" height="600" key="dock-window-1" timestamp="1585791749395">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="dock-window-1/0.0.1280.800@0.0.1280.800" timestamp="1585791749395" />
+    <state x="305" y="35" width="683" height="729" key="find.popup" timestamp="1586037228763">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="-54" y="-1033" width="1005" height="985" key="find.popup/-512.-1080.1920.1080/0.0.1440.900@-512.-1080.1920.1080" timestamp="1585594771453" />
+    <state x="305" y="35" width="683" height="729" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586037228763" />
+    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup" timestamp="1586025951049">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="113" y="-839" width="670" height="676" key="search.everywhere.popup/-512.-1080.1920.1080/0.0.1440.900@-512.-1080.1920.1080" timestamp="1585843183757" />
+    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586025951049" />
+  </component>
+</project>

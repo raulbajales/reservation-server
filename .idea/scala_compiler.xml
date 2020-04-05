@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="reservation-server,reservation--server,reservation--server_4320,users-server-server" />
+  </component>
+</project>
