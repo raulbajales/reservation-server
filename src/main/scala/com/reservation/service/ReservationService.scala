@@ -21,7 +21,7 @@ trait ReservationService {
 
   def makeReservation(booking: Booking): Future[Booking] = {
     require(booking != null, "booking needs to be set")
-    isBookingCreationAllowed(booking) flatMap { isAllowed =>
+    isBookingCreationAllowed(booking).flatMap { isAllowed =>
       if (isAllowed)
         createBooking(booking)
       else {
@@ -34,7 +34,7 @@ trait ReservationService {
     require(bookingId != null && !bookingId.isEmpty, "bookingId needs to be set")
     require(newDateRange != null, "newDateRange needs to be set")
     findBookingById(bookingId) flatMap { booking =>
-      isBookingModificationAllowed(bookingId, newDateRange) flatMap { isAllowed =>
+      isBookingModificationAllowed(bookingId, newDateRange).flatMap { isAllowed =>
         if (isAllowed)
           updateBooking(bookingId, booking.copy(dateRange = newDateRange))
         else {
