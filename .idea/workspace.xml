@@ -5,18 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/target/config-classes/$da3585d94db03e42f5a0.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/JsonFormats.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/JsonFormats.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/model/AvailabilityVO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/model/AvailabilityVO.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/repository/impl/BookingRepositoryMongo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/repository/impl/BookingRepositoryMongo.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/service/AvailabilityService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/service/AvailabilityService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/service/BookingService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/service/BookingService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/service/ReservationService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/service/ReservationService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/com/reservation/controller/ReservationControllerSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/reservation/controller/ReservationControllerSpec.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
