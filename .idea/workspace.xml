@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cdede10-e912-4e2b-a3b9-da7204d7113d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$da3585d94db03e42f5a0.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/JsonFormats.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/JsonFormats.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/model/AvailabilityVO.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/model/AvailabilityVO.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/repository/impl/BookingRepositoryMongo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/repository/impl/BookingRepositoryMongo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/service/AvailabilityService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/service/AvailabilityService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/service/BookingService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/service/BookingService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/reservation/service/ReservationService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/reservation/service/ReservationService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/com/reservation/controller/ReservationControllerSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/com/reservation/controller/ReservationControllerSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileBinaryFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/_global/_global/compileSourceFileInputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +101,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1ZXgmcwNkZIBkYaHtFQs7uHYRrM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -109,6 +126,33 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.usermanager.service" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AvailabilityVOSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="reservation-server" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="testKind" value="Class" />
+      <option name="envs">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="jrePath" />
+      <option name="searchTest" value="Across module dependencies" />
+      <option name="showProgressMessages" value="true" />
+      <option name="testArgs" value="" />
+      <option name="testClassPath" value="com.reservation.model.AvailabilityVOSpec" />
+      <option name="useSbt" value="false" />
+      <option name="useUiWithSbt" value="false" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="ScalaTest.AvailabilityVOSpec" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -137,6 +181,7 @@
     </option>
     <option name="modificationStamps">
       <map>
+        <entry key="$PROJECT_DIR$" value="4755904652512" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3075058465" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="86493699" />
@@ -189,6 +234,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1586025265177" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1586141159999">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586141159999" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1586141159998">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586141159998" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1586141159997">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586141159997" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1586141159999">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586141159999" />
     <state x="228" y="150" key="IDE.errors.dialog" timestamp="1586037100722">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -201,15 +262,15 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="dock-window-1/0.0.1280.800@0.0.1280.800" timestamp="1585791749395" />
-    <state x="305" y="35" width="683" height="729" key="find.popup" timestamp="1586037228763">
+    <state x="305" y="35" width="683" height="729" key="find.popup" timestamp="1586136709350">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="-54" y="-1033" width="1005" height="985" key="find.popup/-512.-1080.1920.1080/0.0.1440.900@-512.-1080.1920.1080" timestamp="1585594771453" />
-    <state x="305" y="35" width="683" height="729" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586037228763" />
-    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup" timestamp="1586025951049">
+    <state x="305" y="35" width="683" height="729" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1586136709350" />
+    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup" timestamp="1586139616413">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="113" y="-839" width="670" height="676" key="search.everywhere.popup/-512.-1080.1920.1080/0.0.1440.900@-512.-1080.1920.1080" timestamp="1585843183757" />
-    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586025951049" />
+    <state x="417" y="179" width="670" height="501" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1586139616413" />
   </component>
 </project>

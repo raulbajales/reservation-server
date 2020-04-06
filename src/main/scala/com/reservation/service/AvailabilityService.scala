@@ -1,14 +1,13 @@
 package com.reservation.service
 
-import com.reservation.model.{AvailabilityVO, Booking, DateRangeVO}
+import com.reservation.model.{AvailabilityVO, AvailabilityVOBuilder, Booking, DateRangeVO}
 import com.reservation.repository.BookingRepository
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
 
 trait AvailabilityService {
   this: BookingRepository =>
-
-  implicit val ec: ExecutionContext = scala.concurrent.ExecutionContext.Implicits.global
 
   def calculateAvailability(inThisDateRange: DateRangeVO): Future[AvailabilityVO] = {
     require(inThisDateRange != null, "inThisDateRange needs to be set")
@@ -26,7 +25,7 @@ trait AvailabilityService {
   }
 
   def calculateFor(inThisDateRange: DateRangeVO, bookings: Seq[Booking]): Future[AvailabilityVO] = {
-    val builder: AvailabilityVO.Builder = AvailabilityVO.Builder(inThisDateRange)
+    val builder = AvailabilityVOBuilder(inThisDateRange)
     var dateRangeToProcess: Option[DateRangeVO] = Some(inThisDateRange)
     Future {
       for (booking <- bookings) dateRangeToProcess.map { dateRange =>

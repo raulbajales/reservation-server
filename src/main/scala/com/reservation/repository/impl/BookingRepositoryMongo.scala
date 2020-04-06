@@ -13,15 +13,14 @@ import org.mongodb.scala.model.Filters._
 import org.mongodb.scala.model.Sorts._
 import org.mongodb.scala.result.DeleteResult
 
-import scala.concurrent.{ExecutionContext, Future}
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.Future
 
 trait BookingRepositoryMongo extends BookingRepository {
 
   object delegate extends MongoDAO[Booking](DatabaseProvider("mongodb", fromProviders(classOf[Booking])), "bookings") {
     override val collection = coll
   }
-
-  implicit val ec: ExecutionContext = scala.concurrent.ExecutionContext.Implicits.global
 
   override def createBooking(booking: Booking): Future[Booking] = {
     require(booking != null, "booking is required")

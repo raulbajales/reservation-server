@@ -6,6 +6,7 @@ import java.time.temporal.ChronoUnit
 import com.reservation.AppConf
 import com.reservation.model.{AvailabilityVO, Booking, DateRangeVO}
 
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 trait BookingService {

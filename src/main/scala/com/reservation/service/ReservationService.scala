@@ -4,6 +4,7 @@ import com.reservation.AppConf
 import com.reservation.model.{AvailabilityVO, Booking, DateRangeVO}
 import com.reservation.repository.BookingRepository
 
+import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.Future
 
 trait ReservationService {
