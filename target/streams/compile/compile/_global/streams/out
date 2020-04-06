@@ -1,8 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /Users/raulbajales/development/sample-scala-rest-server/reservation-server/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock ...[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/raulbajales/development/sample-scala-rest-server/reservation-server/src/main/scala/com/reservation/JsonFormats.scala:30:85: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : com.reservation.model.AvailabilityVO.type[0m
-[0m[[0m[31merror[0m] [0m[0m required: (?, ?) => com.reservation.model.AvailabilityVO[0m
-[0m[[0m[31merror[0m] [0m[0m  implicit val availabilityJsonFormat: RootJsonFormat[AvailabilityVO] = jsonFormat2(AvailabilityVO)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                                    ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
-[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /Users/raulbajales/development/sample-scala-rest-server/reservation-server/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock.[0m
