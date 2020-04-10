@@ -27,9 +27,7 @@ trait BookingRepositoryMongo extends BookingRepository {
     booking.copy(id = ObjectId.get().toString)
     delegate.insertOne(booking).toFuture().map { _ =>
       booking
-    } recover {
-      throw _
-    }
+    } 
   }
 
   override def updateBooking(id: String, booking: Booking): Future[Booking] = {
@@ -38,8 +36,6 @@ trait BookingRepositoryMongo extends BookingRepository {
     val bookingWithId = booking.copy(id = id)
     delegate.replaceOne(bookingWithId).toFuture().map { _ =>
       bookingWithId
-    } recover {
-      throw _
     }
   }
 
@@ -50,8 +46,6 @@ trait BookingRepositoryMongo extends BookingRepository {
         result.wasAcknowledged()
       else
         throw BookingNotFoundException(id.toString)
-    } recover {
-      throw _
     }
   }
 
